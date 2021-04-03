@@ -212,20 +212,18 @@
       <strong>Yeay!</strong> Your messages has been sent. Thank You!
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
-  <form name="submit-to-google-sheet">
-    <div class="col-md-8 mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email">
-      <div id="emailHelp" class="form-text"></div>
-    </div>
-    <div class="col-md-8 mb-3">
-      <label for="formGroupExampleInput" class="form-label">Full Name</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name" name="Fullname">
-    </div>
-    <div class="col-md-8 mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Messages</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Messages"></textarea>
-    </div>
+                <form id="form" name="submit-to-google-sheet">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" name="Fullname"/>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" name="Email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesan" class="form-label">Message</label>
+                    <textarea class="form-control" id="pesan" rows="3" name="Messages"></textarea>
     <!-- modal -->
  
     <!-- Button trigger modal -->
